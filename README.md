@@ -1,6 +1,6 @@
 # cosc-student-info-system
 
-Once your folder is open in VS Code, open a new terminal and make sure you are in the Assignment-3 directory. Then, run frontend and backend in separate terminals:
+Once your folder is open in VS Code, open a new terminal and make sure you are in the directory. Then, run frontend and backend in separate terminals:
 
 Running the frontend server
 Open a new terminal and navigate to frontend directory
