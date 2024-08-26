@@ -1,0 +1,133 @@
+/* Data.css */
+
+.data-page {
+    background-image: url(./assets/bbblurry.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.data-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.student-table th,
+.student-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.student-table thead {
+    background-color: #3f45ff;
+    color: #fff;
+}
+
+.student-table th {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.student-table th:hover {
+    background-color: #2a30ff;
+}
+
+.student-table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.student-table tbody tr:hover {
+    background-color: #e8f5e9;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.edit-btn {
+    background-color: #48c55a;
+    color: white;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #37843a;
+}
+
+.delete-btn:hover {
+    background-color: #D32F2F;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .data-page {
+        background-color: #1e1e1e;
+        color: #fff;
+    }
+
+    .data-page h1 {
+        color: #fff;
+    }
+
+    .search-bar {
+        background-color: #2c2c2c;
+        border-color: #555;
+        color: #fff;
+    }
+
+    .student-table {
+        background-color: #2c2c2c;
+        box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    }
+
+    .student-table thead {
+        background-color: #3b5cff;
+    }
+
+    .student-table th:hover {
+        background-color: #2a44ff;
+    }
+
+    .student-table tbody tr:nth-child(even) {
+        background-color: #3c3c3c;
+    }
+
+    .student-table tbody tr:hover {
+        background-color: #4c4c4c;
+    }
+}

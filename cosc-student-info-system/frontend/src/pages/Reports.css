@@ -1,0 +1,159 @@
+.page-bg {
+    background-image: url(./assets/bbblurry.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.reports-container {
+    max-width: 900px;
+    width: 100%;
+    padding: 40px;
+    background-color: #2b003a; /* Or any color you prefer */
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.input-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input-field {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #6c4e8c;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #2c003b;
+    color: #ffffff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.primary-button {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #8e24aa, #d81b60);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+    white-space: nowrap;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #6a1b9a;
+    box-shadow: 0 0 10px rgba(106, 27, 154, 0.3);
+}
+
+.primary-button:hover {
+    background: linear-gradient(135deg, #ab47bc, #ec407a);
+}
+
+.primary-button:disabled {
+    background: #7e57c2;
+    cursor: not-allowed;
+}
+
+.primary-button:active {
+    transform: scale(0.98);
+}
+
+.error-message {
+    color: #ff6f61;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.report-card {
+    background-color: #3a003f;
+    border-radius: 15px;
+    padding: 35px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.report-card h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.report-item {
+    padding: 25px;
+    background-color: #420047;
+    border-radius: 12px;
+    transition: transform 0.3s;
+    margin-bottom: 25px;
+}
+
+.report-item:hover {
+    transform: translateY(-5px);
+}
+
+.report-item h3 {
+    color: #e1bee7;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.status {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.good {
+    background-color: #8bc34a;
+    color: #ffffff;
+}
+
+.bad {
+    background-color: #f44336;
+    color: #ffffff;
+}
+
+.excellent {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.very-good {
+    background-color: #42a5f5;
+    color: #ffffff;
+}
+
+.average {
+    background-color: #ffeb3b;
+    color: #333333;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #c7c7c7;
+}
