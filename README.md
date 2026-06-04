@@ -1,37 +1,67 @@
 # cosc-student-info-system
 
+## 🎥 Project Demo
+
+[▶ Watch Demo Video](./demo-video/Student_info_system.mp4)
+
+---
+
 Once your folder is open in VS Code, open a new terminal and make sure you are in the directory. Then, run frontend and backend in separate terminals:
 
-Running the frontend server
+## Running the frontend server
+
 Open a new terminal and navigate to frontend directory
 
+```bash
 cd frontend
-Install the required packages using npm install command
+```
 
+Install the required packages:
+
+```bash
 npm install
-Subsequently, start the development server using the npm run dev command
+```
 
+Start the development server:
+
+```bash
 npm run dev
-Running the backend server
-Open another new terminal and navigate to backend directory
+```
 
+## Running the backend server
+
+Open another terminal and navigate to backend directory
+
+```bash
 cd backend
-Install the required packages using pip install command
+```
 
-For Windows
+Install the required packages:
 
+### Windows
+
+```bash
 pip install -r requirements.txt
-For Linux/Mac
+```
 
+### Linux/Mac
+
+```bash
 pip3 install -r requirements.txt
-Subsequently, start the development server using the uvicorn command
+```
 
-For Windows
+Start the backend server:
 
+### Windows
+
+```bash
 python -m uvicorn main:app --reload
-For Linux/Mac
+```
 
+### Linux/Mac
+
+```bash
 python3 -m uvicorn main:app --reload
+```
 
-
-you can start exploring my project ....
+You can now start exploring the project.
