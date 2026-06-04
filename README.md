@@ -1,8 +1,6 @@
 # cosc-student-info-system
 
-## 🎥 Project Demo
-
-<h2>🎥 Demo Video</h2>
+<h2>🎥 Projrct Demo Video</h2>
 
 https://github.com/sushankindroji/cosc-student-info-system/issues/1#issue-4586440761
 
