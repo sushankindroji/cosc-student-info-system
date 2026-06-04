@@ -2,7 +2,7 @@
 
 <h2>🎥 Project Demo Video</h2>
 
-https://github.com/sushankindroji/cosc-student-info-system/issues/1#issue-4586440761
+https://github.com/user-attachments/assets/bf17c092-ab97-4cc8-be8c-a37b52cc7ed3
 
 ---
 
